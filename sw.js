@@ -1,6 +1,6 @@
 // Cambia CACHE cuando subas una version nueva para forzar la actualizacion.
-const CACHE = "macros-v5";
-const ARCHIVOS = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png"];
+const CACHE = "macros-v6";
+const ARCHIVOS = ["./", "./index.html", "./manifest.json", "./icon-192-v2.png", "./icon-512-v2.png"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ARCHIVOS)).then(() => self.skipWaiting()));
