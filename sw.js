@@ -1,5 +1,5 @@
 // Cambia CACHE cuando subas una version nueva para forzar la actualizacion.
-const CACHE = "macros-v10";
+const CACHE = "macros-v11";
 const ARCHIVOS = ["./", "./index.html", "./manifest.json", "./icon-192-v2.png", "./icon-512-v2.png"];
 
 self.addEventListener("install", (e) => {
